@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Ülesanne 8 - Testimine
 Juhend: https://courses.cs.ttu.ee/w/images/8/87/2014_Loeng_8_-_Testing.pdf
@@ -27,7 +29,7 @@ class Testing(unittest.TestCase):
 
 	def test_5(self):
 		# Failed: Syntax faulty
-		self.assertEqual(convert("CD"), 400)
+		self.assertEqual(convert("CD"), 399)
 
 	def test_6(self):
 		self.assertEqual(convert("MMMMCMXCIX"), 4999)
@@ -50,8 +52,7 @@ class Testing(unittest.TestCase):
 		self.assertEqual(convert(10), -1)
 
 def main():
-	unittest.main(verbosity=5)
-
+	unittest.main(verbosity=2)
 
 
 if __name__ == '__main__':

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 Ülesanne 7 - OOP
 Juhend: https://courses.cs.ttu.ee/w/images/d/da/2014_Loeng_7_-_OOP.pdf
